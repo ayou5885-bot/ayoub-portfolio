@@ -17,7 +17,7 @@ export const projects: Project[] = [
       "A mobility-focused website built around cycle and urban transit concepts, with a clean interface for discovering transportation options.",
     url: "https://nomad-p9we.vercel.app/",
     image:
-      "images/nomand.png",
+      "images.nomand.png",
     imageAlt: "Person riding an electric bicycle through a city street",
   },
   {
