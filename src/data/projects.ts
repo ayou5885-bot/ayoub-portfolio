@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description:
       "A brand website for an urban electric bike, with a clean editorial layout that presents the bike's features, technology and lifestyle.",
     url: "https://nomad-p9we.vercel.app/",
-    image: "/images/nomad.png",
+    image: "/images/nomand.png",
     imageAlt:
       "AYO-CYCLE homepage showing a black electric bike beside a list of its key features",
   },
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     description:
       "An online store for PC components, peripherals and gaming systems, with a bold dark interface, shop and category browsing, search and a cart.",
     url: "https://volt-last-one.vercel.app/",
-    image: "/images/volt.png",
+    image: "/images/hardware.png",
     imageAlt:
       "Volt homepage with a dark gaming PC background and Shop Now and Explore Gaming PCs buttons",
   },
