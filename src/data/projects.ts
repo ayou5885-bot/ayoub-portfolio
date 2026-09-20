@@ -17,7 +17,7 @@ export const projects: Project[] = [
       "A mobility-focused website built around cycle and urban transit concepts, with a clean interface for discovering transportation options.",
     url: "https://nomad-p9we.vercel.app/",
     image:
-      "https://images.pexels.com/photos/13344226/pexels-photo-13344226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "images/nomand.png",
     imageAlt: "Person riding an electric bicycle through a city street",
   },
   {
@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "A hardware store e-commerce site presenting tools and supplies with a catalog-style browsing experience.",
     url: "https://volt-last-one.vercel.app/",
     image:
-      "https://images.pexels.com/photos/735338/pexels-photo-735338.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "images/hardware.png",
     imageAlt: "Hardware store interior with assorted tools and merchandise on shelves",
   },
   {
@@ -61,7 +61,7 @@ export const projects: Project[] = [
       "A car service website presenting automotive repair and maintenance offerings with a clean, service-oriented layout.",
     url: "https://car-service-web-six.vercel.app/",
     image:
-      "https://images.pexels.com/photos/33814734/pexels-photo-33814734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "images/carservice.png",
     imageAlt: "Interior of an automotive repair shop with cars undergoing maintenance",
   },
 ];
