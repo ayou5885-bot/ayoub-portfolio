@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #f7f6f3;
+    --bg-elev: #ffffff;
+    --ink: #161513;
+    --ink-soft: #4b4944;
+    --ink-muted: #8a8780;
+    --line: #e6e3dd;
+    --accent: #b8552f;
+  }
+
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    background-color: var(--ink);
+    color: var(--bg);
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: "Instrument Serif", Georgia, serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Hide scrollbar for horizontal scroll areas if needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
